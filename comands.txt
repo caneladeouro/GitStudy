@@ -1,8 +1,26 @@
 # Começamos um projeto git com
 git init
 
-# Criamos um ponto na história com:
-git add nome_arquivo/. (para caso for tudo)
+# Criamos uma instância de todos arquivos com:
+git add nome_arquivo ou . (para caso for tudo)
 
 # Levamos esse ponto na historia para o repositório com:
-git comit
+git comit -m 'Nome-Ponto-Historia'
+
+# Podemos ver o estado do desenvolvimento com:
+git status
+
+# Podemos ver as mudanças feitas com:
+git log
+
+# Podemos ver o ponto no historia com:
+git show id_arquivo
+
+# E se quisermos ver o ultimo ponto:
+git show
+
+# Podemos criar linhas paraleras/alternativas/ramificação através do:
+git branch nome_ramificacao
+
+# Para mudarmos entre ramificações pode usar:
+git checkout nome_ramificacao
