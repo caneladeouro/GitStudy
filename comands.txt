@@ -24,3 +24,6 @@ git branch nome_ramificacao
 
 # Para mudarmos entre ramificações pode usar:
 git checkout nome_ramificacao
+
+# Também podemos ver todas ramificações com:
+git branch
