@@ -1,0 +1,8 @@
+# Começamos um projeto git com
+git init
+
+# Criamos um ponto na história com:
+git add nome_arquivo/. (para caso for tudo)
+
+# Levamos esse ponto na historia para o repositório com:
+git comit
