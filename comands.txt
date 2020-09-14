@@ -1,19 +1,19 @@
 # Começamos um projeto git com
 git init
 
-# Criamos uma instância de todos arquivos com:
+# Criamos ou atualizamos as mudanças da linha do tempo com:
 git add nome_arquivo ou . (para caso for tudo)
 
-# Levamos esse ponto na historia para o repositório com:
+# Adicionamos um ponto na linha do tempo
 git comit -m 'Nome-Ponto-Historia'
 
 # Podemos ver o estado do desenvolvimento com:
 git status
 
-# Podemos ver as mudanças feitas com:
+# Podemos ver os ponto na linha do tempo:
 git log
 
-# Podemos ver o ponto no historia com:
+# Apresenta determinado ponto na história:
 git show id_arquivo
 
 # E se quisermos ver o ultimo ponto:
@@ -27,3 +27,17 @@ git checkout nome_ramificacao
 
 # Também podemos ver todas ramificações com:
 git branch
+
+# Para unir as ramificações usamos o:
+git merge nome_ramificacao
+
+# Para deletar uma ramificação usamos (Note o parâmetro -D):
+git branch -D nome_ramificacao
+
+# Para nos conectarmos ao repositório na nuvem:
+git remote add origin link_repositorio
+
+# Para mandarmos nosso repositório na máquina para o online:
+git puch
+# No caso da primeira vez no repositório online:
+git puch -u origin master
