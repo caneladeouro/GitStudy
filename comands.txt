@@ -1,3 +1,6 @@
+# Esse documento foi feito com base no vídeo da Rocketseat
+# Link: https://www.youtube.com/watch?v=2alg7MQ6_sI&t=939s
+
 # Começamos um projeto git com
 git init
 
@@ -19,7 +22,10 @@ git show id_arquivo
 # E se quisermos ver o ultimo ponto:
 git show
 
-# Podemos criar linhas paraleras/alternativas/ramificação através do:
+# Podemos gerenciar linhas paraleras/alternativas/ramificação através do:
+git brach
+
+# Criando uma ramificação
 git branch nome_ramificacao
 
 # Para mudarmos entre ramificações pode usar:
@@ -38,6 +44,22 @@ git branch -D nome_ramificacao
 git remote add origin link_repositorio
 
 # Para mandarmos nosso repositório na máquina para o online:
-git puch
+git push
 # No caso da primeira vez no repositório online:
-git puch -u origin master
+git push -u origin master
+
+# No caso de não quisermos toda vez que mandarmos algo para o repositório do git ter que colocar senha:
+git config credential.helper store
+
+# Podemos pegar um projeto já iniciado através do:
+git clone link_repositorio
+
+# Podemos atualizar o projeto com:
+git pull
+
+# Podemos voltar na ramificação:
+git checkout id_ramificacao
+
+# Podemos recuperar um arquivo já (nota se não colocarmos nada ele vai pegar um ponto na história atual, já se não 
+colocarmos o id ele vai pegar o ultimo ponto na história):
+git checkout [id_ramificacao] -- [nome_arquivo]
