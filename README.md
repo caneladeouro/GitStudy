@@ -1,21 +1,21 @@
 # GitStudy
 
-- Esse documento foi feito com base no vídeo da Rocketseat
-# Link: **https://www.youtube.com/watch?v=2alg7MQ6_sI&t=939s**
+## Esse documento foi feito com base no vídeo da Rocketseat
+# Link: [Rockeatseat](https://www.youtube.com/watch?v=2alg7MQ6_sI&t=939s)
 
-- Começamos um projeto git com
+### Começamos um projeto git com
 `` git init ``
 
-- Criamos ou atualizamos as mudanças da linha do tempo com:
+### Criamos ou atualizamos as mudanças da linha do tempo com:
 git add nome_arquivo ou . (para caso for tudo)
 
-- Adicionamos um ponto na linha do tempo
+### Adicionamos um ponto na linha do tempo
 git comit -m 'Nome-Ponto-Historia'
 
-- Podemos ver o estado do desenvolvimento com:
+### Podemos ver o estado do desenvolvimento com:
 git status
 
-- Podemos ver os ponto na linha do tempo:
+### Podemos ver os ponto na linha do tempo:
 git log
 
 - Apresenta determinado ponto na história:
