@@ -4,7 +4,7 @@
 # Link: **https://www.youtube.com/watch?v=2alg7MQ6_sI&t=939s**
 
 - Começamos um projeto git com
-''' git init '''
+´´´ git init ´´´
 
 - Criamos ou atualizamos as mudanças da linha do tempo com:
 git add nome_arquivo ou . (para caso for tudo)
