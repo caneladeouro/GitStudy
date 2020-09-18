@@ -18,28 +18,19 @@ git status
 ### Podemos ver os ponto na linha do tempo:
 git log
 
-- Apresenta determinado ponto na história:
-git show id_arquivo
+### Apresenta o ponto na história:
+git show [id_arquivo = Para caso queremos especificar o ponto]
 
-- E se quisermos ver o ultimo ponto:
-git show
+### Gerenciamento de linhas paraleras/alternativas/ramificação através do. Nota: caso sozinho só apresenta as ramificações:
+git brach [nome_ramificacao = Para caso queira criar uma ramificação; ]
 
-- Podemos gerenciar linhas paraleras/alternativas/ramificação através do:
-git brach
-
-- Criando uma ramificação
-git branch nome_ramificacao
-
-- Para mudarmos entre ramificações pode usar:
+### Mudanças entre ramifacações:
 git checkout nome_ramificacao
 
-- Também podemos ver todas ramificações com:
-git branch
-
-- Para unir as ramificações usamos o:
+### Para unir as ramificações usamos o:
 git merge nome_ramificacao
 
-- Para deletar uma ramificação usamos (Note o parâmetro -D):
+### Para deletar uma ramificação usamos (Note o parâmetro -D):
 git branch -D nome_ramificacao
 
 - Para nos conectarmos ao repositório na nuvem:
