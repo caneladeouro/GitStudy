@@ -22,10 +22,10 @@
 ``git show [id_arquivo = Para caso queremos especificar o ponto]``
 
 ### Gerenciamento de linhas paraleras/alternativas/ramificação através do. Nota: caso sozinho só apresenta as ramificações:
-git brach [nome_ramificacao = Para caso queira criar uma ramificação; -D = Caso queira deletar uma ramificação]
+``git brach [nome_ramificacao = Para caso queira criar uma ramificação][-D = Caso queira deletar uma ramificação]``
 
 ### Mudanças entre ramifacações:
-``git checkout nome_ramificacao``
+``git checkout nome_ramificacao[nome_ramificaçãõ = Também pode recurar uma ramificação][[nome_ramificação = Para caso queira especificar a ramificação]--nome_arquivo = Para caso queira recuperar a ultima versão do arquivo]``
 
 ### Para unir as ramificações usamos o:
 ``git merge nome_ramificacao``
@@ -46,10 +46,3 @@ git brach [nome_ramificacao = Para caso queira criar uma ramificação; -D = Cas
 
 ### Podemos atualizar o projeto com os dados em nuvem:
 ``git pull``
-
-- Podemos voltar na ramificação:
-``git checkout id_ramificacao``
-
-- Podemos recuperar um arquivo já (nota se não colocarmos nada ele vai pegar um ponto na história atual, já se não 
-colocarmos o id ele vai pegar o ultimo ponto na história):
-``git checkout [id_ramificacao] -- [nome_arquivo]``
